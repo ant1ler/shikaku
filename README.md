@@ -117,7 +117,7 @@ Tkinter. Никаких игровых движков, никаких веб-ф�
 
 1. Клонируй репозиторий:
    ```
-   git clone <ссылка на твой репозиторий>
+   git clone https://github.com/ant1ler/shikaku/
    cd shikaku
    ```
 
