@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# VS Code
+.vscode/
+
+# Данные игры (не коммитим личные рекорды и сохранения)
+data/shikaku_save.json
+data/shikaku_records.json
+data/shikaku_daily.json
+data/settings.json
+data/logs/
+
+# Обои (генерируются скриптом, не коммитим)
+data/wallpapers/dark/*.jpg
+data/wallpapers/light/*.jpg
+
+# Системные файлы
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+[project]
+name = "shikaku"
+version = "1.0.0"
+description = "Shikaku puzzle game (Java-style project layout)"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src/main"}
+
+[tool.setuptools.packages.find]
+where = ["src/main"]
+include = ["shikaku*"]
